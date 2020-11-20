@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsOrderSystem", "WindowsFormsOrderSystem\WindowsFormsOrderSystem.csproj", "{61C995D9-DB8E-461F-92D2-E5B80CF5562B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4B548DA1-D313-4F98-848C-0925A790FF9C}"
+	ProjectSection(SolutionItems) = preProject
+		DataGridViewNumericUpDownElements.dll = DataGridViewNumericUpDownElements.dll
+		GUITestSetting.testsettings = GUITestSetting.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsOrderSystemTests", "WindowsFormsOrderSystemTests\WindowsFormsOrderSystemTests.csproj", "{361CE0B7-FA52-4A9E-B0B7-48479C269DFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodedUITestProject", "CodedUITestProject\CodedUITestProject.csproj", "{23A88701-854B-4ABC-BBCB-A290A858CB81}"
+	ProjectSection(ProjectDependencies) = postProject
+		{61C995D9-DB8E-461F-92D2-E5B80CF5562B} = {61C995D9-DB8E-461F-92D2-E5B80CF5562B}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{61C995D9-DB8E-461F-92D2-E5B80CF5562B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61C995D9-DB8E-461F-92D2-E5B80CF5562B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61C995D9-DB8E-461F-92D2-E5B80CF5562B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61C995D9-DB8E-461F-92D2-E5B80CF5562B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{361CE0B7-FA52-4A9E-B0B7-48479C269DFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{361CE0B7-FA52-4A9E-B0B7-48479C269DFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{361CE0B7-FA52-4A9E-B0B7-48479C269DFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{361CE0B7-FA52-4A9E-B0B7-48479C269DFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23A88701-854B-4ABC-BBCB-A290A858CB81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23A88701-854B-4ABC-BBCB-A290A858CB81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23A88701-854B-4ABC-BBCB-A290A858CB81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23A88701-854B-4ABC-BBCB-A290A858CB81}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
